@@ -8,6 +8,8 @@ export const themes = {
     green: '#77f779',
     red: '#f52727',
     gray: '#5f5f5f',
+    purple: '#afa9dc',
+    blue: '#53a7a7',
   },
   fontFamily: {},
   size: {
