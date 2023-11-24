@@ -1,5 +1,9 @@
-function test() {
-  return <div>測試看看更改過後的，執行是否順利</div>
+import { useTranslation } from 'react-i18next'
+
+function Test() {
+  const { t } = useTranslation()
+
+  return <h1>{t('title')}</h1>
 }
 
-export default test
+export default Test

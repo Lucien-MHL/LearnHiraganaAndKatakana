@@ -1,9 +1,7 @@
-import { useTranslation } from 'react-i18next'
+import Test from '@components/Test'
 
 function App() {
-  const { t } = useTranslation()
-
-  return <h1>{t('title')}</h1>
+  return <Test />
 }
 
 export default App

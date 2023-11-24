@@ -1,0 +1,16 @@
+{
+  "cSpell.words": [
+    "bahmutov",
+    "clsx",
+    "dakuon",
+    "learnjp",
+    "lucide",
+    "peaceiris",
+    "seion",
+    "Shadcn",
+    "tailwindcss",
+    "Tauri"
+  ],
+  "css.customData": [".vscode/tailwind.json"],
+  "path-intellisense.absolutePathToWorkspace": false
+}
