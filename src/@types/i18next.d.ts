@@ -1,7 +1,7 @@
-import ns1 from './zh.json'
-import { defaultNS } from '.'
+import lang from '@/i18n/locales/zh.json'
+import { defaultNS } from '@/i18n'
 
-const resources = { ns1 } as const
+const resources = { lang } as const
 
 declare module 'i18next' {
   interface CustomTypeOptions {

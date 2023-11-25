@@ -1,14 +1,16 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import ns1 from './zh.json'
+import zh from './locales/zh.json'
+import en from './locales/en.json'
 
-export const defaultNS = 'ns1'
+export const defaultNS = 'lang'
 
 await i18n.use(initReactI18next).init({
-  fallbackLng: 'zh',
+  fallbackLng: 'zh-TW',
   defaultNS,
   resources: {
-    zh: { ns1 },
+    'zh-TW': { lang: zh },
+    'en-US': { lang: en },
   },
   interpolation: {
     escapeValue: false, // react already safes from xss
