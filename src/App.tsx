@@ -1,10 +1,14 @@
 import TitleBar from '@components/TitleBar'
+import SideBar from './components/SideBar'
+import MainLayout from './components/MainLayout'
 
 function App() {
   return (
     <>
       <TitleBar />
-      <h1>Hello</h1>
+      <MainLayout>
+        <SideBar />
+      </MainLayout>
     </>
   )
 }
