@@ -12,7 +12,17 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "all": false,
+      "window": {
+        "startDragging": true,
+        "close": true,
+        "hide": true,
+        "show": true,
+        "maximize": true,
+        "minimize": true,
+        "unmaximize": true,
+        "unminimize": true
+      }
     },
     "bundle": {
       "active": true,
@@ -56,10 +66,13 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
         "resizable": true,
-        "title": "Ryan",
-        "width": 800
+        "title": "Ah!",
+        "center": true,
+        "minWidth": 940,
+        "minHeight": 500,
+        "contentProtected": true,
+        "decorations": false
       }
     ]
   }
