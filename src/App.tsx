@@ -1,7 +1,12 @@
-import Test from '@components/Test'
+import TitleBar from '@components/TitleBar'
 
 function App() {
-  return <Test />
+  return (
+    <>
+      <TitleBar />
+      <h1>Hello</h1>
+    </>
+  )
 }
 
 export default App
